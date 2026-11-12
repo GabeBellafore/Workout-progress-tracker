@@ -27,12 +27,11 @@ class State:
 
 set_website_title("FitTrack - Workout Progress Analyzer")
 set_site_information(
-    "Gabe Bellafore",
-    "FitTrack tracks workouts, personal records, and fitness goals.",
-    "Python and Drafter documentation.",
-    "See the FitTrack planning document in the repository.",
-    []
-)
+    author="Gabe Bellafore",
+    description="FitTrack tracks workouts, personal records, and fitness goals.",
+    sources="Python and Drafter documentation.",
+    planning="See the FitTrack planning document in the repository.",
+    links=[https://github.com/GabeBellafore/Workout-tracker])
 
 def navigation() -> list:
     """Creates the navigation buttons."""
