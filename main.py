@@ -31,7 +31,7 @@ set_site_information(
     description="FitTrack tracks workouts, personal records, and fitness goals.",
     sources="Python and Drafter documentation.",
     planning="See the FitTrack planning document in the repository.",
-    links=[https://github.com/GabeBellafore/Workout-tracker])
+    links=["https://github.com/GabeBellafore/Workout-tracker"])
 
 def navigation() -> list:
     """Creates the navigation buttons."""
